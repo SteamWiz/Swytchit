@@ -8,6 +8,7 @@ Switch environment context easily in the shell
 sw your/project/directory
 ```
 
+- `sw` (no argument) — argparse prints a usage error and exits with code 2
 - Performs a `cd` operation to the project
 - Starts a subshell
 - Within the subshell, runs `source` on `.swytchitrc.sh` files in the project directory and any ancestor directories
